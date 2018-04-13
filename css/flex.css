@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+h1 {
+    text-align: center;
+}
+
+.seleccion {
+    margin-bottom: 10px;
+}
+
+.calendar {
+    margin: auto;
+    border: 1px solid royalblue;
+    background-color: rgba(43, 43, 43, 0.86);
+    color: white;
+    width: 50%;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+.seleccion {
+    text-align: center;
+}
+
+.month {
+    width: 78% !important;
+    border-bottom: solid 1px bisque;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+
+o {
+    color: slategrey;
+}
+
+@media print {
+    .seleccion {
+        display: none;
+    }
+}
+
+.calendar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dw,
+.week {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dayweek,
+.days {
+    text-align: center;
+    cursor: pointer;
+    width: 5vw;
+    height: 4.3vw;
+    padding: 3px;
+}
+
+.days {
+    border: solid 1px bisque;
+}
+
+.modalCC {
+    margin-left: 25px;
+}
+
+#horario {
+    width: 70%;
+}
+
+#enpunto {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.hh {
+    margin: 0;
+    height: 8px;
+    width: 200px;
+    position: relative;
+    float: right;
+}
+
+.hora {
+    width: 260px;
+    height: 34px;
+}
+
+.hs {
+  position: absolute;
+  right: 70px;
+   
+}
